@@ -1,0 +1,61 @@
+button {
+    position: absolute;
+    top: 226px;
+    left: 832px;
+    outline: none;
+    border: none;
+    background: url("resources/BTN_Spin.png");
+    width: 98px;
+    height: 98px;
+}
+
+canvas {
+    background: url("resources/BG.png");
+}
+
+#selectionBox {
+    top: 203px;
+    left: 571px;
+    display: inline-block;
+    width: 215px;
+    height: 142px;
+    position: absolute;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: end;
+    direction: rtl;
+    background: none;
+    color: limegreen;
+    border: none;
+    outline: none;
+}
+
+#lowerLine {
+    top: 351px;
+}
+
+#upperLine {
+    top: 179px;
+}
+
+.line {
+    left: 78px;
+    display: inline-block;
+    width: 717px;
+    height: 16px;
+    position: absolute;
+    background: url("resources/Bet_Line.png");
+}
+
+#resultDiv {
+    text-align: center;
+    font-size: 64px;
+    color: chartreuse;
+    top: 203px;
+    left: 328px;
+    display: inline-block;
+    width: 215px;
+    height: 142px;
+    position: absolute;
+}
+
