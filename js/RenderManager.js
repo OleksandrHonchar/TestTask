@@ -16,7 +16,7 @@ var imgNames = [];
 var images = [];
 var canvas, context, btn, upperLine, lowerLine, resultIndex, timeoutId, imageValue, symImage, state, selectionBox;
 
-getJSON('js/data.json', function (data) {
+getJSON('resources/data.json', function (data) {
     // Javascript function JSON.parse to parse JSON data
     var jsonObj = JSON.parse(data);
 
